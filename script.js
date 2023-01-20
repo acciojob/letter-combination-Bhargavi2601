@@ -27,7 +27,7 @@ function letterCombinations(input_digit) {
 			mres.push(char+rstr);
 		}
 	}
-	
+	return mres;
 }
 
 module.exports = letterCombinations;
